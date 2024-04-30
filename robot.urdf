@@ -2954,11 +2954,11 @@
         <mesh filename="./meshes/legs_1_right_leg_1_calf_pulley_1.stl" />
       </geometry>
     </collision>
-    <inertial>
+    <!-- <inertial>
       <mass value="0.0056355118" />
       <inertia ixx="1.040135e-06" iyy="0" izz="0" ixy="0" ixz="0" iyz="0" />
       <origin xyz="-0.00575 -0.0099592921 0.0089805877" rpy="1.5707963 0 -2.6179939" />
-    </inertial>
+    </inertial> -->
   </link>
   <joint name="joint_legs_1_right_leg_1_fastened_11" type="fixed">
     <origin xyz="0.00575 -0.0099592921 -0.0325" rpy="3.1415927 0 0" />
@@ -3035,11 +3035,11 @@
         <mesh filename="./meshes/legs_1_left_leg_1_calf_pulley_1.stl" />
       </geometry>
     </collision>
-    <inertial>
+    <!-- <inertial>
       <mass value="0.0056355118" />
       <inertia ixx="1.040135e-06" iyy="0" izz="0" ixy="0" ixz="0" iyz="0" />
       <origin xyz="-0.00575 0.0099592921 0.0089805877" rpy="1.5707963 0 -2.6179939" />
-    </inertial>
+    </inertial> -->
   </link>
   <joint name="joint_legs_1_left_leg_1_fastened_10" type="fixed">
     <origin xyz="0.00575 0.0099592921 -0.0325" rpy="3.1415927 0 0" />
@@ -3641,11 +3641,11 @@
         <mesh filename="./meshes/right_arm_1_hand_1_camera_mount_1.stl" />
       </geometry>
     </collision>
-    <inertial>
+    <!-- <inertial>
       <mass value="0.0032944294" />
       <inertia ixx="2.7349677e-06" iyy="2.8207234e-06" izz="0" ixy="0" ixz="0" iyz="0" />
       <origin xyz="0 -0.031404208 -0.015915984" rpy="-2.0704722 -1.5707951 -1.0518706" />
-    </inertial>
+    </inertial> -->
   </link>
   <joint name="joint_right_arm_1_hand_1_fastened_13" type="fixed">
     <origin xyz="-0.042 -0.02123077 0.029" rpy="3.1415927 0 0" />
@@ -3780,11 +3780,11 @@
         <mesh filename="./meshes/left_arm_2_hand_1_camera_mount_1.stl" />
       </geometry>
     </collision>
-    <inertial>
+    <!-- <inertial>
       <mass value="0.0032944294" />
       <inertia ixx="2.7349677e-06" iyy="2.8207234e-06" izz="0" ixy="0" ixz="0" iyz="0" />
       <origin xyz="0 -0.031404208 -0.015915984" rpy="-2.0704722 -1.5707951 -1.0518706" />
-    </inertial>
+    </inertial> -->
   </link>
   <joint name="joint_left_arm_2_hand_1_fastened_13" type="fixed">
     <origin xyz="-0.042 -0.02123077 0.029" rpy="3.1415927 0 0" />
